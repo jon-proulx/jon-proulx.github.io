@@ -4,7 +4,7 @@
   <title><![CDATA[Buzzword Compliance]]></title>
   <link href="http://blog.jonproulx.com/atom.xml" rel="self"/>
   <link href="http://blog.jonproulx.com/"/>
-  <updated>2014-09-19T16:00:16-04:00</updated>
+  <updated>2014-09-19T16:01:38-04:00</updated>
   <id>http://blog.jonproulx.com/</id>
   <author>
     <name><![CDATA[Jon Proulx]]></name>
@@ -48,7 +48,7 @@ ornare feugiat eleifend. Interdum et malesuada fames ac ante ipsum
 primis in faucibus. Fusce nec leo porttitor, iaculis lorem sit amet,
 finibus sem. Suspendisse eget massa vitae urna porttitor
 tristique. Integer a metus tortor.
-<img class="right" src="images/whiteboard-man.jpeg" width="612" height="816" title="Whiteboard man" alt="Unofficial mascot of the OpenStack Operations Guide"></p>
+<img class="right" src="http://blog.jonproulx.com/images/whiteboard-man.jpeg" width="612" height="816" title="Whiteboard man" alt="Unofficial mascot of the OpenStack Operations Guide"></p>
 
 <h3>Interdum et malesuada</h3>
 

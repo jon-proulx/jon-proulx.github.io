@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[My Octopress Blog]]></title>
-  <link href="http://jon-proulx.github.io/atom.xml" rel="self"/>
-  <link href="http://jon-proulx.github.io/"/>
-  <updated>2014-09-19T13:34:27-04:00</updated>
-  <id>http://jon-proulx.github.io/</id>
+  <title><![CDATA[Buzzword Compliance]]></title>
+  <link href="http://blog.jonproulx.com/atom.xml" rel="self"/>
+  <link href="http://blog.jonproulx.com/"/>
+  <updated>2014-09-19T14:46:24-04:00</updated>
+  <id>http://blog.jonproulx.com/</id>
   <author>
-    <name><![CDATA[Your Name]]></name>
+    <name><![CDATA[Jon Proulx]]></name>
     
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>

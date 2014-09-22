@@ -4,7 +4,7 @@
   <title><![CDATA[Buzzword Compliance]]></title>
   <link href="http://blog.jonproulx.com/atom.xml" rel="self"/>
   <link href="http://blog.jonproulx.com/"/>
-  <updated>2014-09-19T16:01:38-04:00</updated>
+  <updated>2014-09-22T14:46:01-04:00</updated>
   <id>http://blog.jonproulx.com/</id>
   <author>
     <name><![CDATA[Jon Proulx]]></name>
@@ -15,74 +15,27 @@
   
   <entry>
     <title type="html"><![CDATA[Hello World]]></title>
-    <link href="http://blog.jonproulx.com/blog/2014/09/19/hello-world/"/>
-    <updated>2014-09-19T15:53:40-04:00</updated>
-    <id>http://blog.jonproulx.com/blog/2014/09/19/hello-world</id>
-    <content type="html"><![CDATA[<p>So the &ldquo;title&rdquo; in the front matter yaml gets rendered as a first level
-header.  Therefore subsequent headers should be no hiugher that 2nd
-level.</p>
+    <link href="http://blog.jonproulx.com/blog/2014/09/22/hello-world/"/>
+    <updated>2014-09-22T13:58:19-04:00</updated>
+    <id>http://blog.jonproulx.com/blog/2014/09/22/hello-world</id>
+    <content type="html"><![CDATA[<h2>Hello World</h2>
 
-<p>I do wonder how edits are rendered.  I imageine as complete
-replacement as though they&rsquo;d always existed that way.</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean et sem at metus tincidunt laoreet nec vel felis. Mauris luctus odio sit amet posuere gravida. Etiam at hendrerit velit, eu semper tortor. Mauris porttitor malesuada urna in ornare. Proin eu odio et massa condimentum scelerisque a sed quam. Vestibulum maximus tempus turpis, eu efficitur turpis tristique in. Donec eget sem viverra, vestibulum dolor in, mollis lorem. Integer sem magna, tincidunt a tempus in, iaculis quis est. Maecenas a orci et urna ultricies pulvinar quis ut est. Suspendisse potenti. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
 
-<h2>Lorem ipsum dolor sit amet</h2>
+<p>Nullam lectus ex, maximus sit amet massa sed, efficitur malesuada orci. Nulla eget interdum mauris. Suspendisse sollicitudin, lacus ut dignissim mattis, nunc purus venenatis dui, lacinia ultricies lectus justo quis quam. Fusce volutpat nisl ut eleifend feugiat. Curabitur egestas felis augue. Morbi blandit consequat libero sit amet mattis. In ut condimentum mauris. Cras mollis enim nec rutrum sollicitudin.</p>
 
-<p>Consectetur adipiscing elit. Maecenas sit amet felis dolor. Quisque
-dictum sapien id nulla vulputate, sed luctus urna commodo. Nam
-suscipit elit mi, at fringilla neque aliquet in. Aliquam non metus non
-ex lobortis dignissim bibendum ac lorem. Curabitur semper lobortis
-euismod. Sed posuere ex diam, et imperdiet turpis egestas id. Nunc
-lobortis tempor leo, at convallis quam suscipit ut.</p>
+<h3>Lv3 Header</h3>
 
 <!-- more -->
 
 
-<h3>Nam consectetur</h3>
+<p>Duis metus mauris, ultrices et lacinia sit amet, porttitor quis nibh. Donec tincidunt commodo porta. Curabitur euismod molestie magna, sed egestas libero sollicitudin at. Donec cursus consectetur lorem non posuere. Vivamus a nisi mauris. Donec sed congue orci. Etiam risus urna, finibus sit amet mi ac, volutpat tristique lorem. Morbi cursus libero in velit sodales, nec fringilla enim rhoncus. Aenean consectetur vulputate auctor. Curabitur nec pretium odio, eu commodo dui. Ut nec odio non mauris rutrum pulvinar. Interdum et malesuada fames ac ante ipsum primis in faucibus. Fusce eget orci scelerisque elit sagittis tristique.</p>
 
-<p>Malesuada leo sed egestas. Nam viverra, velit id
-semper malesuada, nibh felis tempor mauris, nec euismod metus turpis
-non est. Aliquam non elit at lorem auctor dictum in id erat. Aenean
-quis felis imperdiet, ornare felis quis, luctus augue. Cras purus
-risus, sodales convallis nibh nec, maximus sagittis turpis. Mauris
-ornare feugiat eleifend. Interdum et malesuada fames ac ante ipsum
-primis in faucibus. Fusce nec leo porttitor, iaculis lorem sit amet,
-finibus sem. Suspendisse eget massa vitae urna porttitor
-tristique. Integer a metus tortor.
-<img class="right" src="http://blog.jonproulx.com/images/whiteboard-man.jpeg" width="612" height="816" title="Whiteboard man" alt="Unofficial mascot of the OpenStack Operations Guide"></p>
+<p>Ut accumsan interdum ullamcorper. Proin eleifend nunc vel tellus ullamcorper, et dignissim augue tristique. Proin quam arcu, interdum vitae sapien eget, lacinia aliquam velit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam commodo lacinia arcu non elementum. Praesent et quam vehicula, mollis neque nec, dignissim velit. Duis imperdiet luctus tellus, vel viverra nunc vulputate in. Integer molestie molestie libero vehicula consectetur. Aliquam lobortis leo mi, a sollicitudin augue mollis nec.</p>
 
-<h3>Interdum et malesuada</h3>
+<h3>Lv3 Header</h3>
 
-<p>Fames ac ante ipsum primis in faucibus. Aliquam
-id mi a ante tristique auctor. Pellentesque accumsan eu massa
-hendrerit ornare. Donec velit dui, molestie congue pellentesque
-placerat, ultrices eget tortor. Donec porttitor lacus in diam
-ullamcorper imperdiet. Integer vulputate turpis sed orci elementum,
-vitae varius nibh semper. Interdum et malesuada fames ac ante ipsum
-primis in faucibus. In hac habitasse platea dictumst. Proin vel
-facilisis est. Ut ornawre luctus facilisis. Vestibulum vitae blandit
-ex. Fusce laoreet mollis lorem. Vestibulum auctor magna magna, sit
-amet euismod sapien pharetra ac. Aenean semper turpis in ullamcorper
-ornare. Sed dapibus placerat finibus. Quisque fermentum, ante a
-dapibus facilisis, nibh neque tristique metus, ac consequat nibh augue
-vitae odio.</p>
-
-<p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
-ridiculus mus. Sed in urna lobortis nunc hendrerit euismod in non
-velit. Etiam a volutpat turpis. Donec aliquam nec elit vel
-tincidunt. Vestibulum a urna eu dui vestibulum elementum. Maecenas
-convallis a lacus eget varius. Morbi vel urna enim. Nam mollis tortor
-mattis est hendrerit varius. Duis turpis diam, cursus ac rutrum id,
-fringilla at libero. Pellentesque habitant morbi tristique senectus et
-netus et malesuada fames ac turpis egestas. Sed molestie, enim sed
-faucibus ornare, sem sem commodo dui, eu placerat est mauris pretium
-diam.</p>
-
-<p>Integer feugiat purus ac dui auctor, eget suscipit tellus
-convallis. Vivamus sapien nunc, ultrices nec facilisis sit amet,
-fermentum feugiat mi. Nunc consectetur venenatis sapien sed
-pellentesque. Donec venenatis vel magna pellentesque fermentum. Sed
-condimentum libero leo, non ornare sapien euismod vel. Fusce vulputate
-ultricies viverra. Morbi vel suscipit arcu, et malesuada arcu.</p>
+<p>Fusce laoreet tortor sit amet mollis auctor. Vestibulum mollis nulla in pharetra mattis. Etiam malesuada elit vitae lorem congue ultricies. Duis quis gravida elit. Quisque at metus molestie, blandit ex tincidunt, maximus tortor. Quisque sit amet vulputate libero. Nam ligula velit, aliquam sit amet nisl quis, fringilla ullamcorper lectus. In interdum aliquam neque, ut congue eros rutrum sed. Mauris malesuada, nibh ut interdum congue, metus mi mattis elit, sed tempus dui magna nec ante. Cras sit amet dolor diam. Duis at odio scelerisque, tempor arcu sed, tempor augue. Phasellus sollicitudin tortor quis ligula fermentum tempor. Donec auctor pulvinar magna, id ornare lectus ultrices gravida. Nunc tristique vitae ligula sed sodales. Suspendisse potenti.</p>
 ]]></content>
   </entry>
   

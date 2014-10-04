@@ -4,7 +4,7 @@
   <title><![CDATA[Buzzword Compliance]]></title>
   <link href="http://blog.jonproulx.com/atom.xml" rel="self"/>
   <link href="http://blog.jonproulx.com/"/>
-  <updated>2014-09-22T14:46:01-04:00</updated>
+  <updated>2014-10-04T14:15:52-04:00</updated>
   <id>http://blog.jonproulx.com/</id>
   <author>
     <name><![CDATA[Jon Proulx]]></name>
@@ -18,9 +18,46 @@
     <link href="http://blog.jonproulx.com/blog/2014/09/22/hello-world/"/>
     <updated>2014-09-22T13:58:19-04:00</updated>
     <id>http://blog.jonproulx.com/blog/2014/09/22/hello-world</id>
-    <content type="html"><![CDATA[<h2>Hello World</h2>
+    <content type="html"><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean et sem at metus tincidunt laoreet nec vel felis. Mauris luctus odio sit amet posuere gravida. Etiam at hendrerit velit, eu semper tortor. Mauris porttitor malesuada urna in ornare. Proin eu odio et massa condimentum scelerisque a sed quam. Vestibulum maximus tempus turpis, eu efficitur turpis tristique in. Donec eget sem viverra, vestibulum dolor in, mollis lorem. Integer sem magna, tincidunt a tempus in, iaculis quis est. Maecenas a orci et urna ultricies pulvinar quis ut est. Suspendisse potenti. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
 
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean et sem at metus tincidunt laoreet nec vel felis. Mauris luctus odio sit amet posuere gravida. Etiam at hendrerit velit, eu semper tortor. Mauris porttitor malesuada urna in ornare. Proin eu odio et massa condimentum scelerisque a sed quam. Vestibulum maximus tempus turpis, eu efficitur turpis tristique in. Donec eget sem viverra, vestibulum dolor in, mollis lorem. Integer sem magna, tincidunt a tempus in, iaculis quis est. Maecenas a orci et urna ultricies pulvinar quis ut est. Suspendisse potenti. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+<span class='line-number'>16</span>
+<span class='line-number'>17</span>
+<span class='line-number'>18</span>
+</pre></td><td class='code'><pre><code class='asm'><span class='line'><span class="nf">section</span>     <span class="no">.text</span>
+</span><span class='line'><span class="nf">global</span>      <span class="no">_start</span>                              <span class="err">;</span><span class="no">must</span> <span class="no">be</span> <span class="no">declared</span> <span class="no">for</span> <span class="no">linker</span> <span class="p">(</span><span class="no">ld</span><span class="p">)</span>
+</span><span class='line'>
+</span><span class='line'><span class="nl">_start:</span>                                         <span class="err">;</span><span class="nf">tell</span> <span class="no">linker</span> <span class="no">entry</span> <span class="no">point</span>
+</span><span class='line'>
+</span><span class='line'>    <span class="nf">mov</span>     <span class="no">edx</span><span class="p">,</span><span class="no">len</span>                             <span class="err">;</span><span class="no">message</span> <span class="no">length</span>
+</span><span class='line'>    <span class="nf">mov</span>     <span class="no">ecx</span><span class="p">,</span><span class="no">msg</span>                             <span class="err">;</span><span class="no">message</span> <span class="no">to</span> <span class="no">write</span>
+</span><span class='line'>    <span class="nf">mov</span>     <span class="no">ebx</span><span class="p">,</span><span class="mi">1</span>                               <span class="err">;</span><span class="no">file</span> <span class="no">descriptor</span> <span class="p">(</span><span class="no">stdout</span><span class="p">)</span>
+</span><span class='line'>    <span class="nf">mov</span>     <span class="no">eax</span><span class="p">,</span><span class="mi">4</span>                               <span class="err">;</span><span class="no">system</span> <span class="no">call</span> <span class="no">number</span> <span class="p">(</span><span class="no">sys_write</span><span class="p">)</span>
+</span><span class='line'>    <span class="nf">int</span>     <span class="mi">0x80</span>                                <span class="err">;</span><span class="no">call</span> <span class="no">kernel</span>
+</span><span class='line'>
+</span><span class='line'>    <span class="nf">mov</span>     <span class="no">eax</span><span class="p">,</span><span class="mi">1</span>                               <span class="err">;</span><span class="no">system</span> <span class="no">call</span> <span class="no">number</span> <span class="p">(</span><span class="no">sys_exit</span><span class="p">)</span>
+</span><span class='line'>    <span class="nf">int</span>     <span class="mi">0x80</span>                                <span class="err">;</span><span class="no">call</span> <span class="no">kernel</span>
+</span><span class='line'>
+</span><span class='line'><span class="nf">section</span>     <span class="no">.data</span>
+</span><span class='line'>
+</span><span class='line'><span class="nf">msg</span>     <span class="no">db</span>  <span class="err">&#39;</span><span class="no">Hello</span><span class="p">,</span> <span class="no">world</span><span class="err">!&#39;</span><span class="p">,</span><span class="mi">0xa</span>                 <span class="err">;</span><span class="no">our</span> <span class="no">dear</span> <span class="no">string</span>
+</span><span class='line'><span class="nf">len</span>     <span class="no">equ</span> <span class="no">$</span> <span class="p">-</span> <span class="no">msg</span>                             <span class="err">;</span><span class="no">length</span> <span class="no">of</span> <span class="no">our</span> <span class="no">dear</span> <span class="no">string</span>
+</span></code></pre></td></tr></table></div></figure>
+
 
 <p>Nullam lectus ex, maximus sit amet massa sed, efficitur malesuada orci. Nulla eget interdum mauris. Suspendisse sollicitudin, lacus ut dignissim mattis, nunc purus venenatis dui, lacinia ultricies lectus justo quis quam. Fusce volutpat nisl ut eleifend feugiat. Curabitur egestas felis augue. Morbi blandit consequat libero sit amet mattis. In ut condimentum mauris. Cras mollis enim nec rutrum sollicitudin.</p>
 

@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: 
 
-Sitemap: http://blog.jonproulx.com/sitemap.xml 
+Sitemap: http://blog.iwokeupcoveredinblood.com/sitemap.xml 

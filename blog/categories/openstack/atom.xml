@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Openstack, | Buzzword Compliance]]></title>
   <link href="http://blog.iwokeupcoveredinblood.com/blog/categories/openstack/atom.xml" rel="self"/>
   <link href="http://blog.iwokeupcoveredinblood.com/"/>
-  <updated>2014-10-12T11:40:27-04:00</updated>
+  <updated>2014-10-12T11:41:31-04:00</updated>
   <id>http://blog.iwokeupcoveredinblood.com/</id>
   <author>
     <name><![CDATA[Jon Proulx]]></name>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Should It Be Easy to Install OpenStack?]]></title>
-    <link href="http://blog.iwokeupcoveredinblood.com/blog/2014/10/12/openstack-insall/"/>
+    <link href="http://blog.iwokeupcoveredinblood.com/blog/2014/10/12/openstack-install/"/>
     <updated>2014-10-12T11:30:00-04:00</updated>
-    <id>http://blog.iwokeupcoveredinblood.com/blog/2014/10/12/openstack-insall</id>
+    <id>http://blog.iwokeupcoveredinblood.com/blog/2014/10/12/openstack-install</id>
     <content type="html"><![CDATA[<p>As part of my glorious position on the
 <a href="http://www.openstack.org/foundation/user-committee">OpensStack User Committee</a>
 (note to self submit bio for user committee page) I recently went

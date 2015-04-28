@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: Career | Buzzword Compliance]]></title>
+  <title><![CDATA[Category: Career, | Buzzword Compliance]]></title>
   <link href="http://blog.iwokeupcoveredinblood.com/blog/categories/career/atom.xml" rel="self"/>
   <link href="http://blog.iwokeupcoveredinblood.com/"/>
-  <updated>2014-10-19T10:50:02-04:00</updated>
+  <updated>2015-04-28T10:51:31-04:00</updated>
   <id>http://blog.iwokeupcoveredinblood.com/</id>
   <author>
     <name><![CDATA[Jon Proulx]]></name>
@@ -14,250 +14,192 @@
 
   
   <entry>
-    <title type="html"><![CDATA[Why Don't Women Apply for Tech Jobs?]]></title>
-    <link href="http://blog.iwokeupcoveredinblood.com/blog/2014/10/19/why-dont-women-apply-for-tech-jobs/"/>
-    <updated>2014-10-19T10:40:00-04:00</updated>
-    <id>http://blog.iwokeupcoveredinblood.com/blog/2014/10/19/why-dont-women-apply-for-tech-jobs</id>
-    <content type="html"><![CDATA[<p>This really is a question, so don&rsquo;t expect any answers from me, though
-hopefully I can clarify (part) of the problem.</p>
+    <title type="html"><![CDATA[Cloudy Sysadmin Wanted]]></title>
+    <link href="http://blog.iwokeupcoveredinblood.com/blog/2015/04/28/cloudy-sysadmin-wanted/"/>
+    <updated>2015-04-28T09:59:13-04:00</updated>
+    <id>http://blog.iwokeupcoveredinblood.com/blog/2015/04/28/cloudy-sysadmin-wanted</id>
+    <content type="html"><![CDATA[<p>This is the down &amp; dirty, the position isn&rsquo;t posted yet and this is
+the description our technical team has worked up so far and hasn&rsquo;t been
+through the HR wringer yet.  But we want to fill this as
+quickly as we can possibly find the right person so hoping this
+informal post saves us a week or two while the bureaucracy churns.</p>
 
-<p>It&rsquo;s something I&rsquo;ve been thinking on for some time and
-a <a href="https://twitter.com/bfcohen/status/523501000636641280">tweet</a> by Beth
-Cohen (<a href="https://twitter.com/bfcohen">@bfcohen</a>) yesterday really caught my
-attention, particularly:</p>
+<p>The really really short version is we want someone who can help with
+cloud ops and planning (<a href="http://www.openstack.org">OpenStack</a>,
+<a href="http://ceph.com/">Ceph</a>, etc.) as well as direct random linux
+support. Now at <a href="http://www.csail.mit.edu">CSAIL</a> we do support some
+pretty amazing
+<a href="http://www.csail.mit.edu/biographies/PI/biolist.php">people</a>, so that
+part isn&rsquo;t all bad.</p>
 
-<blockquote><p><a href="http://dca.org.au/app/webroot/files/file/gender%20documents/Business%20Case%20for%20Women%20Mckinsey%20sept08.pdf">Research</a> shows that men apply for jobs for which they have 60% of the stated qualifications while women demur unless they have 100%.</p></blockquote>
+<p>Once it&rsquo;s posted the wording may be a bit different but we&rsquo;ll still
+be looking for more or less the same thing. Screening is pretty much
+all technical staff so you don&rsquo;t need to tick off buzz words to get
+through a pre screener that doesn&rsquo;t really understand what you&rsquo;re
+talking about.</p>
 
-<p>I&rsquo;ve fixated on that one point (of many) as I think it would have a
-relatively large impact on getting women on a more even footing with
-men for a relatively simple change. Like it or not advancement and
-large salary changes in this industry are usually due to a job change
-not just asking (much less not asking and relying on karma).</p>
+<p>If you have question feel free to ask in the comments (or me privately
+if you prefer).</p>
 
-<!--more-->
+<p>If you&rsquo;re interested keep an eye on on <a href="http://careers.mit.edu/">http://careers.mit.edu/</a> (search for
+Department &ldquo;Comp Sci &amp; Artificial Intelligence Lab&rdquo; and Employment
+Type &ldquo;Full-Time&rdquo;).  There&rsquo;s only 6 listings today (without this one)
+and none of them are even vaguely similar so should be obvious.</p>
 
+<p>I&rsquo;m sure I&rsquo;ll <a href="https://twitter.com/_jon_proulx_">tweet</a> it. Hopefully
+I&rsquo;ll edit this post as well and while it can&rsquo;t hurt to drop me an
+email (jon at csail.mit.edu); I can&rsquo;t promise it will help either.</p>
 
-<p>Also confirmation bias.  I&rsquo;ve though as much for years, with a fair
-level of certainty, but having a study to point to is nice.</p>
+<p>So the some what long winded description &hellip;</p>
 
-<h2>Women read job listings differently than men write them.</h2>
+<h2>Systems Administrator MIT/CSAIL</h2>
 
-<p>In the nearly 15 years I&rsquo;ve been in my current job I can only think of
-two female applicants who didn&rsquo;t get the job.  One was the
-front runner until another woman who was even more qualified swooped
-in and stole the show, the other actually just wasn&rsquo;t qualified.  I
-can&rsquo;t even begin to count the number of unqualified male applicants
-whose resumes have gone straight into the recycling&hellip;and yet we have
-had and continue to have a preponderance of male employees.</p>
+<p>Would you like to help provide the computing environment for one of
+the premiere Computer Science research labs in the world?</p>
 
-<p>The &lsquo;almost hired&rsquo; woman was someone I personally badgered into
-applying because she was convinced after reading the job posting she
-wasn&rsquo;t qualified because she didn&rsquo;t tick all the boxes on the
-experience and qualification listed.  We never expected anyone would
-(and no one did or really ever has).</p>
+<p>The
+<a href="http://www.csail.mit.edu">MIT Computer Science and Artificial Intelligence Laboratory</a>
+seeks a strong Linux generalist to join our
+<a href="http://tig.csail.mit.edu">systems administration staff</a>.</p>
 
-<p>Now it would have made a better story if she got the job, but the fact
-is we don&rsquo;t hire just to put butts in seats here and if there had been
-one fewer applicants in the pool she would have been hired. Clearly
-applying was the right choice and there was a mismatch between her
-expectations reading the job posing and our (all guy) expectation in
-writing it.</p>
+<p>The position is about half service development and server
+operations and half customer support (generally as 2nd level to our
+existing help desk). Roughly equivalent to a USNIX/LISA Level
+III: Intermediate/Advanced System Administrator position.</p>
 
-<p>I&rsquo;d suspected there was some gender miscommunication going on in the
-way job posting were written and read prior to this, which is why I
-even knew to try and talk her into applying.  That experience really
-proved it pretty clearly to me.  A highly unscientific sampling of
-women I knew at the time showed the same much more strict reading of
-the job listing.</p>
-
-<h2>So how do men write them?</h2>
-
-<p>I can&rsquo;t <em>really</em> speak that broadly. Truth be told I&rsquo;m still in my
-first technology job, a few promotions along perhaps. I&rsquo;ve interviewed
-around enough to know that no one is expecting 100%.</p>
-
-<p>A recruiter called me for one position with a clearly impossible set
-of requirements and was explicitly told it was one description for two
-positions and if I could fit &frac12; the requirements they&rsquo;d be
-thrilled. Perhaps being that explicit in the written version would be
-a start?</p>
-
-<p>But I can only speak to the one hiring process I know from the inside,
-so let&rsquo;s look at one job description as written. First though a BIG
-caveat.  While this is a position as it was most recently posted, my
-comments are my own and are not those of my employer or my coworkers
-(in case you couldn&rsquo;t tell by the URL).</p>
-
-<blockquote><p>JOB TITLE:         SRS Technical<br/>
-POSITION TITLE:        System Administrator<br/>
-DEPARTMENT:        XXXXX<br/>
-DATE:          XXXXX</p></blockquote>
-
-<p>OK that far is pretty neutral :) This is our entry level admin
-position but is probably more mid-level from an industry perspective (I
-think). Something between <a href="https://www.usenix.org/system/files/lisa/books/usenix_22_jobs3rd_core.pdf">SAGE levels</a> 2 &amp; 3.</p>
-
-<blockquote><p>POSITION OVERVIEW STATEMENT</p>
-
-<p>This System Administrator of the Infrastructure Group (TIG) in the Computer Science and Artificial Intelligence Lab (CSAIL) will be part of a small team responsible for configuring, troubleshooting, maintaining, and supporting systems for over 900 researchers, faculty, students, and staff, including Lab wide servers and services, servers belonging to research groups, and users&#8217; workstations and laptops. This work involves desktop operating systems including GNU/Linux, Mac OS, and Microsoft Windows, and server OSes including Debian, Ubuntu, and Windows, within a Kerberos/AFS environment. Will also mentor peers and interns, and participate in on-call rotation for off-hours and emergency support (requires carrying pager and cell phone).</p></blockquote>
-
-<p>All of that is true as it describes the environment, but it&rsquo;s a catch
-all.  Yes the person hired int this position would touch all those
-things, eventually, but there&rsquo;s no expectation that the individual
-would know &lsquo;GNU/Linux, Mac OS, and Microsoft Windows, and server OSes
-including Debian, Ubuntu, and Windows&rsquo; much less Kerberos and AFS.</p>
-
-<p>I look for a focused competence in one operating system and enough
-knowledge of another to show some flexibility.  We have a chaotic
-environment so people who just memorize the usual problems and their
-usual solutions aren&rsquo;t going to work out very well.</p>
-
-<blockquote><p>CHARACTERISTIC DUTIES AND RESPONSIBILITIES (Essential Functions):</p>
+<h3>Required Skills</h3>
 
 <ul>
-<li>Work with faculty, students, and staff in a technical support role, providing prompt responses through a web/email-based issue tracking system and in-person support.</li>
-<li>Track all user support activity via a case-tracking system (RT), and monitor RT traffic for issues that need further follow-up or documentation as well as handling walk-up traffic user support issues.</li>
-<li>Resolve client issues involving Microsoft Windows, Mac OS, Ubuntu and related applications (including but not limited to productivity software, IMAP email, web browsers and certificates, and other MIT accounting/HR software packages).</li>
-<li>Rapidly diagnose and resolve faults with Lab-wide Debian, Ubuntu, and Windows servers and services (such as, but not limited to. Apache, SVN, Active Directory, mysql, DNS) and consulting with peers and communicating to users as appropriate</li>
-<li>Take responsibility for maintaining and planning upgrades to various Lab-wide Debian, Ubuntu, and Windows servers, such as the Subversion server and Active Directory domain controllers.</li>
-<li>Create and maintain installation instructions and other user-facing documentation, including creating customized installer packages</li>
-<li>Install new and replacement workstations, laptops, and servers, including planning/staging, loading software and migrating data as necessary</li>
-<li>Provide training in use of CSAIL and MIT computerized systems to new Lab members and experienced Lab members encountering new software and services.</li>
-<li>Participate in on-call rotations for off-hours and emergency support (requires carrying SMS enabled cell phone)</li>
-<li>Manage multiple tasks and issues simultaneously and communicate effectively and pleasantly with users and other TIG staff regarding problem resolution and the tracking issues.</li>
-<li>Perform all related duties as assigned.</li>
+<li><p> Strong interpersonal and communication skills; ability to write
+ purchase justifications, train users in complex topics, make
+ presentations to an internal audience, and interact positively
+ with technical and non technical users</p></li>
+<li><p> Independent problem-solving, self-direction</p></li>
+<li><p> Comfort with most aspects of operating system administration; for
+ example, managing processes and services, configuration of mail
+ systems, system installation and configuration, printer systems,
+ and fundamentals of security</p></li>
+<li><p> Familiarity with the principles and practice of system
+ configuration management using modern declarative tools; ability
+ to model and reduce complex system requirements as configuration
+ declarations</p></li>
+<li><p> A solid understanding of the operating systems in use at the site
+ (Ubuntu, Debian, FreeBSD, MacOS, Windows); understanding of
+ paging and swapping, inter-process communication, devices and
+ what device drivers do, and filesystem concepts, for this
+ position Linux variants are most important</p></li>
+<li><p> Familiarity with fundamental networking/distributed computing
+ environment concepts; ability to configure file sharing
+ (NFS/SAMBA or Windows); ability to query DNS records;
+ understanding of basic routing concepts</p></li>
+<li><p> Works well both independently and on a small team</p></li>
 </ul>
-</blockquote>
 
-<p>This I probably didn&rsquo;t even read through when it was posted to hire
-someone. Much of it is true, some seems like purely wishful thinking.</p>
 
-<p>This was actually a mostly user facing position with server operations
-and long term projects as a secondary function that was expected to be
-largely learn as you go.</p>
+<h3>Required Background</h3>
 
-<p>As such planning Active Directory server upgrades and rapidly
-diagnosing Apache, SVN, MySQL, and DNS server issues is a bit of a
-pipe dream.  In fact if someone were actually competent to do all that
-I&rsquo;d probably judge them over qualified.  Any one of those skills would
-get a star next to your name.</p>
+<ul>
+<li> Three to five years of system administration experience</li>
+</ul>
 
-<blockquote><p>SUPERVISION RECEIVED:  Reports to the Director of TIG; is responsible for determining work priorities and project follow up through completion.</p>
 
-<p>SUPERVISION EXERCISED:  No direct supervisory responsibilities.</p>
+<h3>Desirable Background and Skills</h3>
 
-<p>QUALIFICATIONS AND TECHNICAL SKILLS:
-Bachelor&rsquo;s degree in computer science and 3 or more years of end-user support and system administration, preferably in an academic setting, or equivalent experience and training to include: an excellent working knowledge of GNU/Linux, MacOS, and Microsoft Windows operating systems both as an end-user and as an administrator and or in a Help Desk position. Requires excellent personal interaction skills, self-motivation and the ability to work through difficult problems with a minimal amount of support from senior staff members.   Requires a high degree of responsibility and punctuality. Demonstrated willingness and ability to pitch in wherever needed while still accomplishing primary goals.  Must have excellent oral and written communication, customer service, problem solving, analytical, and critical thinking skills; technical aptitude; reliability and ability to keep a consistent on-site schedule; ability to work independently to resolve client issues. Self-starter who is able to rapidly navigate a wide variety of technical problems and interpersonal interactions.  Requires carrying a cell phone to respond to off-hours emergencies.</p></blockquote>
+<ul>
+<li><p> A degree in computer science or a related field</p></li>
+<li><p> Ability to do minimal debugging and modification of C or Java
+ programs</p></li>
+</ul>
 
-<p>This is another wish list.  The apparently &ldquo;softer&rdquo; requirements like</p>
 
-<blockquote><p>Requires excellent personal interaction skills, self-motivation and
-the ability to work through difficult problems with a minimal amount
-of support from senior staff members</p></blockquote>
+<h3>Responsibilities</h3>
 
-<p>are actually the more important.  Any specifics mentioned are an ideal
-list to provide a measure of candidates and like all rulers it need
-to be a bit longer than anything we&rsquo;re likely to measure.</p>
+<ul>
+<li><p> Receives general instructions for new responsibilities from supervisor</p></li>
+<li><p> Initiates some new responsibilities and helps to plan for the
+ future of the site</p></li>
+<li><p> Mentor novice system administrators or operators</p></li>
+<li><p> Receive mentoring from senior administrators</p></li>
+<li><p> Evaluate and/or recommend purchases; has strong influence on
+ purchasing process</p></li>
+</ul>
 
-<p>The degree requirement is bull shit, I&rsquo;d much rather &lsquo;equivalent
-experience&rsquo;.  They don&rsquo;t teach systems administration anywhere I&rsquo;ve
-seen, when hiring developers a bit of formal CS probably has more meaning.
-For this position I&rsquo;d be surprised if you didn&rsquo;t finish High School
-but it wouldn&rsquo;t be an immediate disqualifier to me.</p>
 
-<h2>Wow that&rsquo;s kinda crap isn&rsquo;t it?</h2>
+<h3>Current Technologies</h3>
 
-<p>Well yes.</p>
+<p>Roles often adapt to the person who fills them here, so we have a
+certain expectation that the person we hire will not be doing exactly
+the same set of things as the person who leaves. This is not an
+absolute set of requirements so much as it is a wish list.</p>
 
-<p>I suspect some of it is sloppy copy-pasta as we recycle these things
-and tweak them a bit depending on the job focus and level.  But a bit
-of it shows we&rsquo;re playing to another audience as well.</p>
+<p>We try to stay at the forefront of emerging technologies.  Our
+environment is constantly evolving and we value strong fundamental
+understanding with a demonstrated ability to learn and adapt over
+simply having a rote understanding of our current checklist of
+applications and products.</p>
 
-<p>This job description also goes to HR and we need to convince them to
-pay something that&rsquo;s not too insulting.  Some of the secret code words
-are in there for them (like the Bachelor&rsquo;s degree in CS).</p>
+<h4>Core Systems (things your predecessor spent a lot of time on)</h4>
 
-<p>Clearly even gender politics a side there&rsquo;s quite a bit that could be
-better here, but that is how things go out.  Looking around I don&rsquo;t
-think my group are the only sloppy people out there.  So what is to be
-done?</p>
+<p>Ubuntu GNU/Linux
+Puppet
+Ceph
+OpenStack
+TiBS (backup software)
+FAI (PXE based deployment)</p>
 
-<h2>It&rsquo;s not your job to eliminate yourself.</h2>
+<h4>Core Tools (things you&rsquo;ll need to use to get your job done)</h4>
 
-<p>I think the wisest thing that was ever said to me in relation to job
-applications is that &ldquo;it isn&rsquo;t your job to eliminate yourself&rdquo;.  I&rsquo;d
-pass the same advice along to any job seeker.</p>
+<p>Git
+Request Tracker (RT)
+Nagios</p>
 
-<p>Present yourself honestly, but apply boldly.  If the position seems
-interesting and you have 50% or better of the qualifications listed go
-for it!  These days you don&rsquo;t even waste a stamp.</p>
+<h4>Languages</h4>
 
-<p>If you&rsquo;re nervous about doing that, start with positions you don&rsquo;t
-care about.  Maybe you&rsquo;ll even get to turn some down, which is great
-for the ego I hear.</p>
+<p>Shell Scripting ability is a must</p>
 
-<h2>What about better job descriptions?</h2>
+<p>And at least one of Ruby or Python, bonus points for RAILS or Django
+knowledge.</p>
 
-<p>Well that&rsquo;s the issue, I don&rsquo;t know.</p>
+<h4>Secondary (underlying technologies you&rsquo;ll frequently encounter in our environment)</h4>
 
-<p>I don&rsquo;t have a list of hard requirement since we have a loose and
-adaptive &ldquo;structure&rdquo; here.  We need to cover this broad area and have
-N positions to do so.  When a position is open it&rsquo;s usually because
-someone has left.</p>
+<p>Kerberos
+OpenAFS
+MySQL
+Postgresql
+Apache
+NFS
+ZFS
+FreeBSD</p>
 
-<p>Obviously they have a specific skill set that the group has adapted to
-and usually the ideal person to fill it would be a clone of them.
-This person never exists so we cast a broader net, and plan that where
-the new hire&rsquo;s skills don&rsquo;t match the vacant position we can adjust
-the focus of other team members so we still have full or near full
-coverage, then train up any remaining gaps.</p>
+<h4>Bonus (things you could optionally dive into)</h4>
 
-<p>This doesn&rsquo;t lend itself to a truly clear list of &lsquo;these are the
-essential skills&rsquo;.</p>
+<p>HTCondor
+ELK (or other logging/trending-fu)
+Hadoop
+Spark
+AWS
+Drupal
+JunOS
+MacOS
+Windows</p>
 
-<p>Also to be realistic any job description is going to be used over
-multiple jobs each with a slightly different focus and laziness will
-keep us recycling the same description without making fine adjustments
-to the relative importance of different qualifications.</p>
+<h3>Hours and Location</h3>
 
-<p>Perhaps some thing as simple as stating &ldquo;While an ideal candidate would
-have these skills, the successful candidate should have at least 75%
-of them&rdquo; as mentioned above?</p>
+<p>CSAIL is located in building 32 (the Stata Center) on MIT&rsquo;s Cambridge
+Massachusetts campus.</p>
 
-<p>I&rsquo;ve heard from women in the industry that describing the position
-rather than a long list of skills would be an improvement.  This
-description actually tried to move in that direction. I don&rsquo;t
-think it was very successful in that.  There&rsquo;s no bullet list
-labeled &lsquo;required skills&rsquo; but it still rather reads like it is.  Also
-the Overview and Characteristic Duties section covers about 2/3 of the
-the &lsquo;small team&rsquo; and there&rsquo;s no indication that the applicant and
-several other people divide up those responsibilities.</p>
+<p>As a new hire you will be expected to be on site 9-5. That said
+once you&rsquo;ve come up to speed more flexibility to do remote
+work is possible if you need some quieter time to focus on a project
+or occasionally to deal with life&rsquo;s unexpected events (like contractors
+or sick kids).</p>
 
-<p>Now if you get in for an interview we do tend to be more explicit with
-how responsibilities are divided and which of them we&rsquo;re currently
-most interested in.  To get an interview we first need to get an
-application though.</p>
-
-<p>While I don&rsquo;t have any open positions now, and hopefully won&rsquo;t for some
-time, it would be awfully nice to be ready with a job description that
-would reach a larger more diverse audience.  As it is we have a hell
-of a time getting decent candidates s,o justice and equity aside,
-anything that reaches a larger number of qualified candidates would
-be a bit win.</p>
-
-<p>This probably isn&rsquo;t even strictly a gender issue, though that&rsquo;s the
-context I&rsquo;ve heard about it most in.  It may well be much more broadly
-exclusionary. Really when I originally applied to a similar
-advertisement many years ago (so long ago I think it did cost me a
-stamp) I only did it because I was desperate and was certain I
-wouldn&rsquo;t hear back, yet here I am.</p>
-
-<p>Anyone have a sysadmin job description written to try and address this
-issue?  What would be really great is to hear from some women in
-the field what advertisement for their job looked like and how they
-would write an ad for it.</p>
-
-<p>Discuss, please&hellip;</p>
+<p>This position is part of an on call rotation.  On call duties are
+shared between a primary and secondary responder for one week
+shifts. Frequency fluctuates somewhat depending on staffing and
+vacations, but typically in a six week period you&rsquo;ll be primary once
+and secondary once.you will be on call once a month as either primary
+or secondary responder.</p>
 ]]></content>
   </entry>
   

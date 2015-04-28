@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Openstack, | Buzzword Compliance]]></title>
   <link href="http://blog.iwokeupcoveredinblood.com/blog/categories/openstack/atom.xml" rel="self"/>
   <link href="http://blog.iwokeupcoveredinblood.com/"/>
-  <updated>2014-10-19T10:50:02-04:00</updated>
+  <updated>2015-04-28T10:51:31-04:00</updated>
   <id>http://blog.iwokeupcoveredinblood.com/</id>
   <author>
     <name><![CDATA[Jon Proulx]]></name>
@@ -12,6 +12,196 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Cloudy Sysadmin Wanted]]></title>
+    <link href="http://blog.iwokeupcoveredinblood.com/blog/2015/04/28/cloudy-sysadmin-wanted/"/>
+    <updated>2015-04-28T09:59:13-04:00</updated>
+    <id>http://blog.iwokeupcoveredinblood.com/blog/2015/04/28/cloudy-sysadmin-wanted</id>
+    <content type="html"><![CDATA[<p>This is the down &amp; dirty, the position isn&rsquo;t posted yet and this is
+the description our technical team has worked up so far and hasn&rsquo;t been
+through the HR wringer yet.  But we want to fill this as
+quickly as we can possibly find the right person so hoping this
+informal post saves us a week or two while the bureaucracy churns.</p>
+
+<p>The really really short version is we want someone who can help with
+cloud ops and planning (<a href="http://www.openstack.org">OpenStack</a>,
+<a href="http://ceph.com/">Ceph</a>, etc.) as well as direct random linux
+support. Now at <a href="http://www.csail.mit.edu">CSAIL</a> we do support some
+pretty amazing
+<a href="http://www.csail.mit.edu/biographies/PI/biolist.php">people</a>, so that
+part isn&rsquo;t all bad.</p>
+
+<p>Once it&rsquo;s posted the wording may be a bit different but we&rsquo;ll still
+be looking for more or less the same thing. Screening is pretty much
+all technical staff so you don&rsquo;t need to tick off buzz words to get
+through a pre screener that doesn&rsquo;t really understand what you&rsquo;re
+talking about.</p>
+
+<p>If you have question feel free to ask in the comments (or me privately
+if you prefer).</p>
+
+<p>If you&rsquo;re interested keep an eye on on <a href="http://careers.mit.edu/">http://careers.mit.edu/</a> (search for
+Department &ldquo;Comp Sci &amp; Artificial Intelligence Lab&rdquo; and Employment
+Type &ldquo;Full-Time&rdquo;).  There&rsquo;s only 6 listings today (without this one)
+and none of them are even vaguely similar so should be obvious.</p>
+
+<p>I&rsquo;m sure I&rsquo;ll <a href="https://twitter.com/_jon_proulx_">tweet</a> it. Hopefully
+I&rsquo;ll edit this post as well and while it can&rsquo;t hurt to drop me an
+email (jon at csail.mit.edu); I can&rsquo;t promise it will help either.</p>
+
+<p>So the some what long winded description &hellip;</p>
+
+<h2>Systems Administrator MIT/CSAIL</h2>
+
+<p>Would you like to help provide the computing environment for one of
+the premiere Computer Science research labs in the world?</p>
+
+<p>The
+<a href="http://www.csail.mit.edu">MIT Computer Science and Artificial Intelligence Laboratory</a>
+seeks a strong Linux generalist to join our
+<a href="http://tig.csail.mit.edu">systems administration staff</a>.</p>
+
+<p>The position is about half service development and server
+operations and half customer support (generally as 2nd level to our
+existing help desk). Roughly equivalent to a USNIX/LISA Level
+III: Intermediate/Advanced System Administrator position.</p>
+
+<h3>Required Skills</h3>
+
+<ul>
+<li><p> Strong interpersonal and communication skills; ability to write
+ purchase justifications, train users in complex topics, make
+ presentations to an internal audience, and interact positively
+ with technical and non technical users</p></li>
+<li><p> Independent problem-solving, self-direction</p></li>
+<li><p> Comfort with most aspects of operating system administration; for
+ example, managing processes and services, configuration of mail
+ systems, system installation and configuration, printer systems,
+ and fundamentals of security</p></li>
+<li><p> Familiarity with the principles and practice of system
+ configuration management using modern declarative tools; ability
+ to model and reduce complex system requirements as configuration
+ declarations</p></li>
+<li><p> A solid understanding of the operating systems in use at the site
+ (Ubuntu, Debian, FreeBSD, MacOS, Windows); understanding of
+ paging and swapping, inter-process communication, devices and
+ what device drivers do, and filesystem concepts, for this
+ position Linux variants are most important</p></li>
+<li><p> Familiarity with fundamental networking/distributed computing
+ environment concepts; ability to configure file sharing
+ (NFS/SAMBA or Windows); ability to query DNS records;
+ understanding of basic routing concepts</p></li>
+<li><p> Works well both independently and on a small team</p></li>
+</ul>
+
+
+<h3>Required Background</h3>
+
+<ul>
+<li> Three to five years of system administration experience</li>
+</ul>
+
+
+<h3>Desirable Background and Skills</h3>
+
+<ul>
+<li><p> A degree in computer science or a related field</p></li>
+<li><p> Ability to do minimal debugging and modification of C or Java
+ programs</p></li>
+</ul>
+
+
+<h3>Responsibilities</h3>
+
+<ul>
+<li><p> Receives general instructions for new responsibilities from supervisor</p></li>
+<li><p> Initiates some new responsibilities and helps to plan for the
+ future of the site</p></li>
+<li><p> Mentor novice system administrators or operators</p></li>
+<li><p> Receive mentoring from senior administrators</p></li>
+<li><p> Evaluate and/or recommend purchases; has strong influence on
+ purchasing process</p></li>
+</ul>
+
+
+<h3>Current Technologies</h3>
+
+<p>Roles often adapt to the person who fills them here, so we have a
+certain expectation that the person we hire will not be doing exactly
+the same set of things as the person who leaves. This is not an
+absolute set of requirements so much as it is a wish list.</p>
+
+<p>We try to stay at the forefront of emerging technologies.  Our
+environment is constantly evolving and we value strong fundamental
+understanding with a demonstrated ability to learn and adapt over
+simply having a rote understanding of our current checklist of
+applications and products.</p>
+
+<h4>Core Systems (things your predecessor spent a lot of time on)</h4>
+
+<p>Ubuntu GNU/Linux
+Puppet
+Ceph
+OpenStack
+TiBS (backup software)
+FAI (PXE based deployment)</p>
+
+<h4>Core Tools (things you&rsquo;ll need to use to get your job done)</h4>
+
+<p>Git
+Request Tracker (RT)
+Nagios</p>
+
+<h4>Languages</h4>
+
+<p>Shell Scripting ability is a must</p>
+
+<p>And at least one of Ruby or Python, bonus points for RAILS or Django
+knowledge.</p>
+
+<h4>Secondary (underlying technologies you&rsquo;ll frequently encounter in our environment)</h4>
+
+<p>Kerberos
+OpenAFS
+MySQL
+Postgresql
+Apache
+NFS
+ZFS
+FreeBSD</p>
+
+<h4>Bonus (things you could optionally dive into)</h4>
+
+<p>HTCondor
+ELK (or other logging/trending-fu)
+Hadoop
+Spark
+AWS
+Drupal
+JunOS
+MacOS
+Windows</p>
+
+<h3>Hours and Location</h3>
+
+<p>CSAIL is located in building 32 (the Stata Center) on MIT&rsquo;s Cambridge
+Massachusetts campus.</p>
+
+<p>As a new hire you will be expected to be on site 9-5. That said
+once you&rsquo;ve come up to speed more flexibility to do remote
+work is possible if you need some quieter time to focus on a project
+or occasionally to deal with life&rsquo;s unexpected events (like contractors
+or sick kids).</p>
+
+<p>This position is part of an on call rotation.  On call duties are
+shared between a primary and secondary responder for one week
+shifts. Frequency fluctuates somewhat depending on staffing and
+vacations, but typically in a six week period you&rsquo;ll be primary once
+and secondary once.you will be on call once a month as either primary
+or secondary responder.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Should It Be Easy to Install OpenStack?]]></title>

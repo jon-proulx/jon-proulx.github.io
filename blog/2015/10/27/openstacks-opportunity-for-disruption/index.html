@@ -1,0 +1,357 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>OpenStack&#8217;s Opportunity for Disruption - Buzzword Compliance</title>
+  <meta name="author" content="Jon Proulx">
+
+  
+  <meta name="description" content="OpenStack has a huge opportunity to truly disrupt the cloud space but
+I&rsquo;m afraid no one is noticing this. Cloud is more confining than you &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://blog.iwokeupcoveredinblood.com/blog/2015/10/27/openstacks-opportunity-for-disruption">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="/atom.xml" rel="alternate" title="Buzzword Compliance" type="application/atom+xml">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script>!window.jQuery && document.write(unescape('%3Cscript src="./javascripts/libs/jquery.min.js"%3E%3C/script%3E'))</script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="//fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="//fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+  
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-55391692-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+
+</head>
+
+<body   >
+  <header role="banner"><hgroup>
+  <h1><a href="/">Buzzword Compliance</a></h1>
+  
+    <h2>The rantings of a sysadmin</h2>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="https://www.google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:blog.iwokeupcoveredinblood.com" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/">Blog</a></li>
+  <li><a href="/blog/archives">Archives</a></li>
+  <li><a href="/about-me">Whoami</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">OpenStack&#8217;s Opportunity for Disruption</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+<time class='entry-date' datetime='2015-10-27T06:49:30-04:00'><span class='date'><span class='date-month'>Oct</span> <span class='date-day'>27</span><span class='date-suffix'>th</span>, <span class='date-year'>2015</span></span> <span class='time'>6:49 am</span></time>
+        
+           | <a href="#disqus_thread"
+             data-disqus-identifier="http://blog.iwokeupcoveredinblood.com">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><p>OpenStack has a huge opportunity to truly disrupt the cloud space but
+I&rsquo;m afraid no one is noticing this.</p>
+
+<!--more-->
+
+
+<h2>Cloud is more confining than you think</h2>
+
+<p>&ldquo;Cloud&rdquo; is still though of by many as a disruptive and freeing model.
+In fact it&rsquo;s old news and has become some what ossified.  There&rsquo;s
+innovation on top but not really in what cloud fundamentally are.</p>
+
+<p>All clouds are run by a single provider (which may be yourself in the
+case of private clouds), but that provider fully defines the cloud
+environment, what services are available and what hardware those
+services run on.  In the simplest IaaS case you get something like this.</p>
+
+<p><img class="left" src="/assets/everycloud.png" width="389" height="264"></p>
+
+<p>Now we can add more services like object storage, orchestration,
+image management, and compose lower level services into
+Fubar-as-a-Service.  But everything must live within that cloud
+boundary.</p>
+
+<p>This boundary issue is common to all clouds I&rsquo;m aware of.</p>
+
+<p>In OpenStack land we do a lot of work on interoperability and
+federation between clouds.  This allows you to (more) easily migrate
+workloads from one OpenStack cloud to another.  This is all well and
+good but the explosion in containers really ate our lunch
+there. There&rsquo;s still lots of value to federation and defcore, but
+neither will change the world if you want portable workloads
+containerize.</p>
+
+<p>Still, moving workloads is one thing but each is still islanded in
+what ever cloud they are launched on and can only draw resources from
+that pool.  The fluffy cloud is really more of a prison cell, even if
+it maybe a minimum security one.</p>
+
+<p><img class="right" src="/assets/jailcloud.png" width="301" height="312"></p>
+
+<p>No one much notices because that&rsquo;s the way it has always been.  You
+pick your cloud or clouds and live in them.</p>
+
+<h2>Multi-Provider Cloud</h2>
+
+<p>Multi-provider cloud could change everything and it&rsquo;s <em>almost</em>
+possible with existing OpenStack using federation.  We just need to
+break the internal assumptions that there can be only one of each
+service.</p>
+
+<p>There was a cross project working session this afternoon at the Tokyo
+OpenStack Summit to address this and a working demo on a Nova instance
+in one cloud attaching a Cinder volume in another cloud.</p>
+
+<p>This is revolutionary.</p>
+
+<p>This reshapes the cloud marketplace.  Rather than competing with full
+cloud stacks vendors could specialize in what they actually do
+well. Users could select the best components for their needs rather
+than the best compromise.  Hybrid clouds could burst out and get some
+compute from a public provider while still utilizing their private
+image and block storage services.</p>
+
+<p>We can see the sun through the clouds!</p>
+
+<p><img class="left" src="/assets/ocx.png" width="347" height="245"></p>
+
+<p>No one showed up.</p>
+
+<p>OK that&rsquo;s not true.  A number of operators showed up that I
+recognized,.  And lots of Keystone people showed up, but they were
+mostly already on board.  What was missing was, well everyone else and
+if this is to happen it will likely need everyone else.</p>
+
+<p>I was a bit disappointed by that.</p>
+
+<h2>Massachussetts Open Cloud</h2>
+
+<p>This work is being done largely by
+<a href="http://www.massopenclooud.org">Mass Open Cloud</a> you can find some older
+presentations and papers there.</p>
+
+<p>Also like all OpenStack shops they&rsquo;re hiring (dev and ops)&hellip;</p>
+
+<p>I recently hitched my wagon to them (my waggon bein gMIT/CSAIL&rsquo;s
+production cloud) since we were building clouds in the same
+data-center we decided to combine efforts. I do production ops things
+so while I&rsquo;m working with them that part of the project isn&rsquo;t my baby.
+Though my interest in seeing it happen is a large part of why I
+decided to partner with them.</p>
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Posted by <span class="fn">Jon Proulx</span></span>
+
+      
+
+
+
+
+<time class='entry-date' datetime='2015-10-27T06:49:30-04:00'><span class='date'><span class='date-month'>Oct</span> <span class='date-day'>27</span><span class='date-suffix'>th</span>, <span class='date-year'>2015</span></span> <span class='time'>6:49 am</span></time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/openstack/'>openstack</a>
+  
+</span>
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://blog.iwokeupcoveredinblood.com/blog/2015/10/27/openstacks-opportunity-for-disruption/" data-via="_jon_proulx_" data-counturl="http://blog.iwokeupcoveredinblood.com/blog/2015/10/27/openstacks-opportunity-for-disruption/" >Tweet</a>
+  
+  
+  <div class="g-plusone" data-size="medium"></div>
+  
+  
+    <div class="fb-like" data-send="true" data-width="450" data-show-faces="false"></div>
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2015/04/28/cloudy-sysadmin-wanted/" title="Previous Post: Cloudy Sysadmin Wanted">&laquo; Cloudy Sysadmin Wanted</a>
+      
+      
+    </p>
+  </footer>
+</article>
+
+  <section>
+    <h1>Comments</h1>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+  </section>
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2015/10/27/openstacks-opportunity-for-disruption/">OpenStack&#8217;s Opportunity for Disruption</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2015/04/28/cloudy-sysadmin-wanted/">Cloudy Sysadmin Wanted</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2014/10/19/why-dont-women-apply-for-tech-jobs/">Why Don&#8217;t Women Apply for Tech Jobs?</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2014/10/12/openstack-install/">Should It Be Easy to Install OpenStack?</a>
+      </li>
+    
+  </ul>
+</section>
+<section>
+  <h1>Ich Ha&thorn;  Twit&hellip;</h1>
+            <a class="twitter-timeline"
+            href="https://twitter.com/_jon_proulx_"
+            data-widget-id="518460305899139072">My stream of
+            consciousness &hellip;</a>
+            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+</section> 
+
+
+
+
+
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2015 - Jon Proulx -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+<script type="text/javascript">
+      var disqus_shortname = 'buzzwordcompliance';
+      
+        
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://blog.iwokeupcoveredinblood.com/blog/2015/10/27/openstacks-opportunity-for-disruption/';
+        var disqus_url = 'http://blog.iwokeupcoveredinblood.com/blog/2015/10/27/openstacks-opportunity-for-disruption/';
+        var disqus_script = 'embed.js';
+      
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = '//' + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
+
+
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) {return;}
+  js = d.createElement(s); js.id = id; js.async = true;
+  js.src = "//connect.facebook.net/en_US/all.js#appId=212934732101925&xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+
+
+  <script type="text/javascript">
+    (function() {
+      var script = document.createElement('script'); script.type = 'text/javascript'; script.async = true;
+      script.src = 'https://apis.google.com/js/plusone.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(script, s);
+    })();
+  </script>
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = '//platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>

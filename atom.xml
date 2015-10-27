@@ -4,7 +4,7 @@
   <title><![CDATA[Buzzword Compliance]]></title>
   <link href="http://blog.iwokeupcoveredinblood.com/atom.xml" rel="self"/>
   <link href="http://blog.iwokeupcoveredinblood.com/"/>
-  <updated>2015-04-28T11:01:15-04:00</updated>
+  <updated>2015-10-27T08:07:21-04:00</updated>
   <id>http://blog.iwokeupcoveredinblood.com/</id>
   <author>
     <name><![CDATA[Jon Proulx]]></name>
@@ -12,6 +12,105 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[OpenStack's Opportunity for Disruption]]></title>
+    <link href="http://blog.iwokeupcoveredinblood.com/blog/2015/10/27/openstacks-opportunity-for-disruption/"/>
+    <updated>2015-10-27T06:49:30-04:00</updated>
+    <id>http://blog.iwokeupcoveredinblood.com/blog/2015/10/27/openstacks-opportunity-for-disruption</id>
+    <content type="html"><![CDATA[<p>OpenStack has a huge opportunity to truly disrupt the cloud space but
+I&rsquo;m afraid no one is noticing this.</p>
+
+<!--more-->
+
+
+<h2>Cloud is more confining than you think</h2>
+
+<p>&ldquo;Cloud&rdquo; is still though of by many as a disruptive and freeing model.
+In fact it&rsquo;s old news and has become some what ossified.  There&rsquo;s
+innovation on top but not really in what cloud fundamentally are.</p>
+
+<p>All clouds are run by a single provider (which may be yourself in the
+case of private clouds), but that provider fully defines the cloud
+environment, what services are available and what hardware those
+services run on.  In the simplest IaaS case you get something like this.</p>
+
+<p><img class="left" src="http://blog.iwokeupcoveredinblood.com/assets/everycloud.png" width="389" height="264"></p>
+
+<p>Now we can add more services like object storage, orchestration,
+image management, and compose lower level services into
+Fubar-as-a-Service.  But everything must live within that cloud
+boundary.</p>
+
+<p>This boundary issue is common to all clouds I&rsquo;m aware of.</p>
+
+<p>In OpenStack land we do a lot of work on interoperability and
+federation between clouds.  This allows you to (more) easily migrate
+workloads from one OpenStack cloud to another.  This is all well and
+good but the explosion in containers really ate our lunch
+there. There&rsquo;s still lots of value to federation and defcore, but
+neither will change the world if you want portable workloads
+containerize.</p>
+
+<p>Still, moving workloads is one thing but each is still islanded in
+what ever cloud they are launched on and can only draw resources from
+that pool.  The fluffy cloud is really more of a prison cell, even if
+it maybe a minimum security one.</p>
+
+<p><img class="right" src="http://blog.iwokeupcoveredinblood.com/assets/jailcloud.png" width="301" height="312"></p>
+
+<p>No one much notices because that&rsquo;s the way it has always been.  You
+pick your cloud or clouds and live in them.</p>
+
+<h2>Multi-Provider Cloud</h2>
+
+<p>Multi-provider cloud could change everything and it&rsquo;s <em>almost</em>
+possible with existing OpenStack using federation.  We just need to
+break the internal assumptions that there can be only one of each
+service.</p>
+
+<p>There was a cross project working session this afternoon at the Tokyo
+OpenStack Summit to address this and a working demo on a Nova instance
+in one cloud attaching a Cinder volume in another cloud.</p>
+
+<p>This is revolutionary.</p>
+
+<p>This reshapes the cloud marketplace.  Rather than competing with full
+cloud stacks vendors could specialize in what they actually do
+well. Users could select the best components for their needs rather
+than the best compromise.  Hybrid clouds could burst out and get some
+compute from a public provider while still utilizing their private
+image and block storage services.</p>
+
+<p>We can see the sun through the clouds!</p>
+
+<p><img class="left" src="http://blog.iwokeupcoveredinblood.com/assets/ocx.png" width="347" height="245"></p>
+
+<p>No one showed up.</p>
+
+<p>OK that&rsquo;s not true.  A number of operators showed up that I
+recognized,.  And lots of Keystone people showed up, but they were
+mostly already on board.  What was missing was, well everyone else and
+if this is to happen it will likely need everyone else.</p>
+
+<p>I was a bit disappointed by that.</p>
+
+<h2>Massachussetts Open Cloud</h2>
+
+<p>This work is being done largely by
+<a href="http://www.massopenclooud.org">Mass Open Cloud</a> you can find some older
+presentations and papers there.</p>
+
+<p>Also like all OpenStack shops they&rsquo;re hiring (dev and ops)&hellip;</p>
+
+<p>I recently hitched my wagon to them (my waggon bein gMIT/CSAIL&rsquo;s
+production cloud) since we were building clouds in the same
+data-center we decided to combine efforts. I do production ops things
+so while I&rsquo;m working with them that part of the project isn&rsquo;t my baby.
+Though my interest in seeing it happen is a large part of why I
+decided to partner with them.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Cloudy Sysadmin Wanted]]></title>
@@ -140,62 +239,48 @@ applications and products.</p>
 
 <h4>Core Systems (things your predecessor spent a lot of time on)</h4>
 
-<ul>
-<li> Ubuntu GNU/Linux</li>
-<li> Puppet</li>
-<li> Ceph</li>
-<li> OpenStack</li>
-<li> TiBS (backup software)</li>
-<li> FAI (PXE based deployment)</li>
-</ul>
-
+<p>Ubuntu GNU/Linux
+Puppet
+Ceph
+OpenStack
+TiBS (backup software)
+FAI (PXE based deployment)</p>
 
 <h4>Core Tools (things you&rsquo;ll need to use to get your job done)</h4>
 
-<ul>
-<li> Git</li>
-<li> Request Tracker (RT)</li>
-<li> Nagios</li>
-</ul>
-
+<p>Git
+Request Tracker (RT)
+Nagios</p>
 
 <h4>Languages</h4>
 
-<ul>
-<li><p>  Shell Scripting ability is a must</p></li>
-<li><p> And at least one of Ruby or Python, bonus points for RAILS or
- Django knowledge.</p></li>
-</ul>
+<p>Shell Scripting ability is a must</p>
 
+<p>And at least one of Ruby or Python, bonus points for RAILS or Django
+knowledge.</p>
 
 <h4>Secondary (underlying technologies you&rsquo;ll frequently encounter in our environment)</h4>
 
-<ul>
-<li> Kerberos</li>
-<li> OpenAFS</li>
-<li> MySQL</li>
-<li> Postgresql</li>
-<li> Apache</li>
-<li> NFS</li>
-<li> ZFS</li>
-<li> FreeBSD</li>
-</ul>
-
+<p>Kerberos
+OpenAFS
+MySQL
+Postgresql
+Apache
+NFS
+ZFS
+FreeBSD</p>
 
 <h4>Bonus (things you could optionally dive into)</h4>
 
-<ul>
-<li> HTCondor</li>
-<li> ELK (or other logging/trending-fu)</li>
-<li> Hadoop</li>
-<li> Spark</li>
-<li> AWS</li>
-<li> Drupal</li>
-<li> JunOS</li>
-<li> MacOS</li>
-<li> Windows</li>
-</ul>
-
+<p>HTCondor
+ELK (or other logging/trending-fu)
+Hadoop
+Spark
+AWS
+Drupal
+JunOS
+MacOS
+Windows</p>
 
 <h3>Hours and Location</h3>
 

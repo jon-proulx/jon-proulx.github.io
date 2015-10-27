@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: Openstack, | Buzzword Compliance]]></title>
+  <title><![CDATA[Category: Openstack | Buzzword Compliance]]></title>
   <link href="http://blog.iwokeupcoveredinblood.com/blog/categories/openstack/atom.xml" rel="self"/>
   <link href="http://blog.iwokeupcoveredinblood.com/"/>
-  <updated>2015-04-28T11:01:15-04:00</updated>
+  <updated>2015-10-27T08:07:21-04:00</updated>
   <id>http://blog.iwokeupcoveredinblood.com/</id>
   <author>
     <name><![CDATA[Jon Proulx]]></name>
@@ -14,443 +14,101 @@
 
   
   <entry>
-    <title type="html"><![CDATA[Cloudy Sysadmin Wanted]]></title>
-    <link href="http://blog.iwokeupcoveredinblood.com/blog/2015/04/28/cloudy-sysadmin-wanted/"/>
-    <updated>2015-04-28T09:59:13-04:00</updated>
-    <id>http://blog.iwokeupcoveredinblood.com/blog/2015/04/28/cloudy-sysadmin-wanted</id>
-    <content type="html"><![CDATA[<p>This is the down &amp; dirty, the position isn&rsquo;t posted yet and this is
-the description our technical team has worked up so far and hasn&rsquo;t been
-through the HR wringer yet.  But we want to fill this as
-quickly as we can possibly find the right person so hoping this
-informal post saves us a week or two while the bureaucracy churns.</p>
-
-<p>The really really short version is we want someone who can help with
-cloud ops and planning (<a href="http://www.openstack.org">OpenStack</a>,
-<a href="http://ceph.com/">Ceph</a>, etc.) as well as direct random linux
-support. Now at <a href="http://www.csail.mit.edu">CSAIL</a> we do support some
-pretty amazing
-<a href="http://www.csail.mit.edu/biographies/PI/biolist.php">people</a>, so that
-part isn&rsquo;t all bad.</p>
-
-<p>Once it&rsquo;s posted the wording may be a bit different but we&rsquo;ll still
-be looking for more or less the same thing. Screening is pretty much
-all technical staff so you don&rsquo;t need to tick off buzz words to get
-through a pre screener that doesn&rsquo;t really understand what you&rsquo;re
-talking about.</p>
-
-<p>If you have question feel free to ask in the comments (or me privately
-if you prefer).</p>
-
-<p>If you&rsquo;re interested keep an eye on on <a href="http://careers.mit.edu/">http://careers.mit.edu/</a> (search for
-Department &ldquo;Comp Sci &amp; Artificial Intelligence Lab&rdquo; and Employment
-Type &ldquo;Full-Time&rdquo;).  There&rsquo;s only 6 listings today (without this one)
-and none of them are even vaguely similar so should be obvious.</p>
-
-<p>I&rsquo;m sure I&rsquo;ll <a href="https://twitter.com/_jon_proulx_">tweet</a> it. Hopefully
-I&rsquo;ll edit this post as well and while it can&rsquo;t hurt to drop me an
-email (jon at csail.mit.edu); I can&rsquo;t promise it will help either.</p>
-
-<p>So the some what long winded description &hellip;</p>
-
-<h2>Systems Administrator MIT/CSAIL</h2>
-
-<p>Would you like to help provide the computing environment for one of
-the premiere Computer Science research labs in the world?</p>
-
-<p>The
-<a href="http://www.csail.mit.edu">MIT Computer Science and Artificial Intelligence Laboratory</a>
-seeks a strong Linux generalist to join our
-<a href="http://tig.csail.mit.edu">systems administration staff</a>.</p>
-
-<p>The position is about half service development and server
-operations and half customer support (generally as 2nd level to our
-existing help desk). Roughly equivalent to a USNIX/LISA Level
-III: Intermediate/Advanced System Administrator position.</p>
-
-<h3>Required Skills</h3>
-
-<ul>
-<li><p> Strong interpersonal and communication skills; ability to write
- purchase justifications, train users in complex topics, make
- presentations to an internal audience, and interact positively
- with technical and non technical users</p></li>
-<li><p> Independent problem-solving, self-direction</p></li>
-<li><p> Comfort with most aspects of operating system administration; for
- example, managing processes and services, configuration of mail
- systems, system installation and configuration, printer systems,
- and fundamentals of security</p></li>
-<li><p> Familiarity with the principles and practice of system
- configuration management using modern declarative tools; ability
- to model and reduce complex system requirements as configuration
- declarations</p></li>
-<li><p> A solid understanding of the operating systems in use at the site
- (Ubuntu, Debian, FreeBSD, MacOS, Windows); understanding of
- paging and swapping, inter-process communication, devices and
- what device drivers do, and filesystem concepts, for this
- position Linux variants are most important</p></li>
-<li><p> Familiarity with fundamental networking/distributed computing
- environment concepts; ability to configure file sharing
- (NFS/SAMBA or Windows); ability to query DNS records;
- understanding of basic routing concepts</p></li>
-<li><p> Works well both independently and on a small team</p></li>
-</ul>
-
-
-<h3>Required Background</h3>
-
-<ul>
-<li> Three to five years of system administration experience</li>
-</ul>
-
-
-<h3>Desirable Background and Skills</h3>
-
-<ul>
-<li><p> A degree in computer science or a related field</p></li>
-<li><p> Ability to do minimal debugging and modification of C or Java
- programs</p></li>
-</ul>
-
-
-<h3>Responsibilities</h3>
-
-<ul>
-<li><p> Receives general instructions for new responsibilities from supervisor</p></li>
-<li><p> Initiates some new responsibilities and helps to plan for the
- future of the site</p></li>
-<li><p> Mentor novice system administrators or operators</p></li>
-<li><p> Receive mentoring from senior administrators</p></li>
-<li><p> Evaluate and/or recommend purchases; has strong influence on
- purchasing process</p></li>
-</ul>
-
-
-<h3>Current Technologies</h3>
-
-<p>Roles often adapt to the person who fills them here, so we have a
-certain expectation that the person we hire will not be doing exactly
-the same set of things as the person who leaves. This is not an
-absolute set of requirements so much as it is a wish list.</p>
-
-<p>We try to stay at the forefront of emerging technologies.  Our
-environment is constantly evolving and we value strong fundamental
-understanding with a demonstrated ability to learn and adapt over
-simply having a rote understanding of our current checklist of
-applications and products.</p>
-
-<h4>Core Systems (things your predecessor spent a lot of time on)</h4>
-
-<ul>
-<li> Ubuntu GNU/Linux</li>
-<li> Puppet</li>
-<li> Ceph</li>
-<li> OpenStack</li>
-<li> TiBS (backup software)</li>
-<li> FAI (PXE based deployment)</li>
-</ul>
-
-
-<h4>Core Tools (things you&rsquo;ll need to use to get your job done)</h4>
-
-<ul>
-<li> Git</li>
-<li> Request Tracker (RT)</li>
-<li> Nagios</li>
-</ul>
-
-
-<h4>Languages</h4>
-
-<ul>
-<li><p>  Shell Scripting ability is a must</p></li>
-<li><p> And at least one of Ruby or Python, bonus points for RAILS or
- Django knowledge.</p></li>
-</ul>
-
-
-<h4>Secondary (underlying technologies you&rsquo;ll frequently encounter in our environment)</h4>
-
-<ul>
-<li> Kerberos</li>
-<li> OpenAFS</li>
-<li> MySQL</li>
-<li> Postgresql</li>
-<li> Apache</li>
-<li> NFS</li>
-<li> ZFS</li>
-<li> FreeBSD</li>
-</ul>
-
-
-<h4>Bonus (things you could optionally dive into)</h4>
-
-<ul>
-<li> HTCondor</li>
-<li> ELK (or other logging/trending-fu)</li>
-<li> Hadoop</li>
-<li> Spark</li>
-<li> AWS</li>
-<li> Drupal</li>
-<li> JunOS</li>
-<li> MacOS</li>
-<li> Windows</li>
-</ul>
-
-
-<h3>Hours and Location</h3>
-
-<p>CSAIL is located in building 32 (the Stata Center) on MIT&rsquo;s Cambridge
-Massachusetts campus.</p>
-
-<p>As a new hire you will be expected to be on site 9-5. That said
-once you&rsquo;ve come up to speed more flexibility to do remote
-work is possible if you need some quieter time to focus on a project
-or occasionally to deal with life&rsquo;s unexpected events (like contractors
-or sick kids).</p>
-
-<p>This position is part of an on call rotation.  On call duties are
-shared between a primary and secondary responder for one week
-shifts. Frequency fluctuates somewhat depending on staffing and
-vacations, but typically in a six week period you&rsquo;ll be primary once
-and secondary once.you will be on call once a month as either primary
-or secondary responder.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Should It Be Easy to Install OpenStack?]]></title>
-    <link href="http://blog.iwokeupcoveredinblood.com/blog/2014/10/12/openstack-install/"/>
-    <updated>2014-10-12T11:30:00-04:00</updated>
-    <id>http://blog.iwokeupcoveredinblood.com/blog/2014/10/12/openstack-install</id>
-    <content type="html"><![CDATA[<p>As part of my glorious position on the
-<a href="http://www.openstack.org/foundation/user-committee">OpensStack User Committee</a>
-(note to self submit bio for user committee page) I recently went
-through all 619 free response comments collected by the
-<a href="https://www.openstack.org/user-survey">user survey</a> in the past 12
-months.  The point of that exercise was to come up with a very coarse
-&ldquo;Top 10&rdquo; list to be presented with the tabulated survey results in
-<a href="https://www.openstack.org/summit/openstack-paris-summit-2014/">Paris</a>.</p>
-
-<p>One of the things that kept coming up (though in the end finished out
-of the money so no spoilers here) was making it easier to install
-OpenStack.  Certainly this is an area though could use improvement,
-but how much can it be improved and is it even OpenStack&rsquo;s business to
-worry about installers?</p>
-
-<p>When wearing my &lsquo;user committee&rsquo; hat I had to be neutral and try and
-interpret the anonymous responses I was looking at as faithfully as
-possible without any editorializing.  Well I&rsquo;m takin that hat off now
-and putting on my more usual &lsquo;grumpy old bastard&rsquo; hat, so hold on kids
-it&rsquo;s going to be a bumpy ride&hellip;</p>
+    <title type="html"><![CDATA[OpenStack's Opportunity for Disruption]]></title>
+    <link href="http://blog.iwokeupcoveredinblood.com/blog/2015/10/27/openstacks-opportunity-for-disruption/"/>
+    <updated>2015-10-27T06:49:30-04:00</updated>
+    <id>http://blog.iwokeupcoveredinblood.com/blog/2015/10/27/openstacks-opportunity-for-disruption</id>
+    <content type="html"><![CDATA[<p>OpenStack has a huge opportunity to truly disrupt the cloud space but
+I&rsquo;m afraid no one is noticing this.</p>
 
 <!--more-->
 
 
-<h2>You will never get a unicorn.</h2>
+<h2>Cloud is more confining than you think</h2>
 
-<p>Your package manager cannot help you here, <code>apt-get install openstack</code>
-will never do what you want (nor will <code>yum install</code> or <code>emerge</code> or any
-of the other variants Linux or otherwise).  There are simply too many
-pieces and too many choices for this to ever really be practical, so
-just get that idea out of your silly little head.</p>
+<p>&ldquo;Cloud&rdquo; is still though of by many as a disruptive and freeing model.
+In fact it&rsquo;s old news and has become some what ossified.  There&rsquo;s
+innovation on top but not really in what cloud fundamentally are.</p>
 
-<p>One of OpenStack&rsquo;s strength is it&rsquo;s flexibility and modularity. I&rsquo;m of
-the opinion that this is the main reason it is currently dominant in
-the private cloud space while more monolithic projects (ahem
-<a href="https://www.eucalyptus.com/">Eucalyptus</a>) have all but faded
-away. It&rsquo;s certainly why I threw away my Eucalyptus based cloud about
-2 years ago, but I digress.</p>
+<p>All clouds are run by a single provider (which may be yourself in the
+case of private clouds), but that provider fully defines the cloud
+environment, what services are available and what hardware those
+services run on.  In the simplest IaaS case you get something like this.</p>
 
-<p>Flexibility necessarily brings some complexity. Now I think choice is
-good, but perhaps you think things have gotten a bit out of
-hand. Perhaps we have gone too far in the trade off between
-flexibility and simplicity, but even if we could put that genie back
-in the bottle divide the available options by 10 and you&rsquo;d still be
-there all day long answering preinstall questions.</p>
+<p><img class="left" src="/assets/everycloud.png" width="389" height="264"></p>
 
-<p>The main problem isn&rsquo;t even the millions of config options it&rsquo;s how
-the setting those option affects what packages you need to install in
-the first place. Which services will you provide? Keystone, Nova, and
-Glance are pretty much required for an IaaS install (we&rsquo;ll assume a
-different meta-package for a storage focused install what wouldn&rsquo;t
-need those), but what about Cinder and if Cinder what storage backend?
-Even with the most minimal (and somewhat unrealistic) IaaS
-requirements, what hypervisor will you use, what storage will you use
-for Glance these both have a big impact on what packages you
-need. We&rsquo;ll wave hands over the Neutron options because those are just
-crazy, but you do need to consider which RPC backend to use and I&rsquo;d
-really like to see a choice of database backend as well.</p>
+<p>Now we can add more services like object storage, orchestration,
+image management, and compose lower level services into
+Fubar-as-a-Service.  But everything must live within that cloud
+boundary.</p>
 
-<p>&ldquo;But choice doesn&rsquo;t mean we can&rsquo;t have reasonable defaults&rdquo;, you say?
-OK that&rsquo;s true. Suppose there&rsquo;s a magic package that makes all theses
-choices and leave it to you to install by pieces if you want to make
-different choices.</p>
+<p>This boundary issue is common to all clouds I&rsquo;m aware of.</p>
 
-<p>Well that unicorn isn&rsquo;t shooting rainbows out it&rsquo;s ass anymore, but
-still a unicorn I&rsquo;ll grant. Here&rsquo;s the final kicker, OpenStack is
-fundamentally a distributed system that can be decomposed in multiple
-ways. Single controller, separate controller and network node are the
-two most popular will there be separate Cinder nodes or will that be on
-the controller?</p>
+<p>In OpenStack land we do a lot of work on interoperability and
+federation between clouds.  This allows you to (more) easily migrate
+workloads from one OpenStack cloud to another.  This is all well and
+good but the explosion in containers really ate our lunch
+there. There&rsquo;s still lots of value to federation and defcore, but
+neither will change the world if you want portable workloads
+containerize.</p>
 
-<p>Now maybe we can assume more defaults to simplify this, like a single
-non HA controller that will do everything and we can add compute nodes
-to talk to later. Well that isn&rsquo;t a unicorn anymore it&rsquo;s a toy. I&rsquo;ve
-got nothing against playing with toys, they are useful for simple
-testing and experimental learning.  If that&rsquo;s what you&rsquo;re looking for
-you probably want a pony, I&rsquo;ll talk about those later.</p>
+<p>Still, moving workloads is one thing but each is still islanded in
+what ever cloud they are launched on and can only draw resources from
+that pool.  The fluffy cloud is really more of a prison cell, even if
+it maybe a minimum security one.</p>
 
-<h2>But I saw one over there.</h2>
+<p><img class="right" src="/assets/jailcloud.png" width="301" height="312"></p>
 
-<p>&ldquo;That last argument was a
-<a href="http://en.wikipedia.org/wiki/Straw_man">straw man</a> there are plenty of
-ways to get my unicorn that don&rsquo;t rely on anything as crude as package
-managers.&rdquo; Well that&rsquo;s true there are better ways to try and get your
-unicorn, but I didn&rsquo;t make up that argument.  Someone actually wanted
-to avoid &lsquo;kludging&rsquo; around with configuration management systems.</p>
+<p>No one much notices because that&rsquo;s the way it has always been.  You
+pick your cloud or clouds and live in them.</p>
 
-<p>So yes can get better install automation by leveraging the
-configuration management system of your choice.  In fact you&rsquo;re
-a bit mad if you don&rsquo;t, but this is not a unicorn either it&rsquo;s just good
-sense and takes a deep understanding of OpenStack to configure properly.
-Perhaps less so than just installing raw as you can play a bit of
-&ldquo;fill in the blanks&rdquo; to get things going, but still somewhat less than
-magical.</p>
+<h2>Multi-Provider Cloud</h2>
 
-<p><a href="https://wiki.openstack.org/wiki/TripleO">TripleO</a>? Yes, fine that may
-be magical.  The OpenStack on OpenStack, OpenStack as a Service,
-infinitely recursive, inceptiony thing may in fact have enough mojo to
-do this in its perfected state. I haven&rsquo;t been following just how
-close its current state is to this, but I will grant that it may grow
-up to be a unicorn if it isn&rsquo;t already.</p>
+<p>Multi-provider cloud could change everything and it&rsquo;s <em>almost</em>
+possible with existing OpenStack using federation.  We just need to
+break the internal assumptions that there can be only one of each
+service.</p>
 
-<h2>You don&rsquo;t <em>really</em> want a unicorn anyway.</h2>
+<p>There was a cross project working session this afternoon at the Tokyo
+OpenStack Summit to address this and a working demo on a Nova instance
+in one cloud attaching a Cinder volume in another cloud.</p>
 
-<p>Well not at first.</p>
+<p>This is revolutionary.</p>
 
-<p>OpenStack in production is probably going to be a fairly important
-part of your infrastructure. What is the point of a cloud if not to run
-many more systems on the cloud than under it?</p>
+<p>This reshapes the cloud marketplace.  Rather than competing with full
+cloud stacks vendors could specialize in what they actually do
+well. Users could select the best components for their needs rather
+than the best compromise.  Hybrid clouds could burst out and get some
+compute from a public provider while still utilizing their private
+image and block storage services.</p>
 
-<p>For something with your whole computational world riding on it, you
-NEED to understand what the pieces are and how they are put together
-in a very deliberate way. When something goes wrong you need to be
-able to understand what is happening.</p>
+<p>We can see the sun through the clouds!</p>
 
-<p>I&rsquo;ve never met a piece of software that hasn&rsquo;t broken on me at some
-point in some way. Software (and hardware for that matter) that is in
-the critical path demands either a commercial support contract with a
-very short response time or equivalent local expertise. Of course, being
-local expertise, I prefer the latter there are plenty of people in the
-ecosystem who will sell you the former as well.</p>
+<p><img class="left" src="/assets/ocx.png" width="347" height="245"></p>
 
-<p>Unicorns get you neither of these things.  If there were a silver
-bullet, answer three questions and have a working OpenStack installer,
-what would you do when something went wrong at 3am on a Saturday?</p>
+<p>No one showed up.</p>
 
-<h2>Perhaps a pony then?</h2>
+<p>OK that&rsquo;s not true.  A number of operators showed up that I
+recognized,.  And lots of Keystone people showed up, but they were
+mostly already on board.  What was missing was, well everyone else and
+if this is to happen it will likely need everyone else.</p>
 
-<p>Yes a pony would be nice.</p>
+<p>I was a bit disappointed by that.</p>
 
-<h3>Toys for learning</h3>
+<h2>Massachussetts Open Cloud</h2>
 
-<p>Being able to quickly setup a working OpenStack environment to
-evaluate if it is worth looking into more deeply, is an entirely
-reasonable goal.  As is getting a running cloud so you can learn how
-it behaves through observing and deconstructing it.  Both of these are
-a long way from production and can be expected to be done with little
-to no OpenStack experience.</p>
+<p>This work is being done largely by
+<a href="http://www.massopenclooud.org">Mass Open Cloud</a> you can find some older
+presentations and papers there.</p>
 
-<p>I used <a href="http://fai-project.org/">FAI</a>, which we use for PXE bast boot
-strapping around here, and <a href="http://puppetlabs.com/">Puppet</a>to do the
-actual OpenStack config bits for my first install (after an abortive
-attempt at using <a href="https://maas.ubuntu.com/">MaaS</a> which conflicted
-with too many existing services on my network).  Had a working multi
-node proof of concept system up in less than 16 person hours from
-deciding to hunt up abandoned hardware to having test users launching
-VMs. Granted this was during the Essex release so pre-Neutron,
-somewhat simpler times.</p>
+<p>Also like all OpenStack shops they&rsquo;re hiring (dev and ops)&hellip;</p>
 
-<p>Today the official <a href="http://docs.openstack.org/">install guides</a> would
-probably be both faster and better, since you can see the individual
-pieces fitting together as you assemble them rather than first taking
-a magical leap and then having to deconstruct what it did as it the
-case with Puppet (or your tool of choice most likely).</p>
-
-<p>Both these methods are a bit more time investment than one would
-really want for the initial
-evaluation. <a href="http://devstack.org/">DevStack</a> will get something
-quickly with out too much investment, but as a developer tool it&rsquo;s not
-quite an ideal operator evaluation tool. An introductory level unicorn
-would be a good creature to have, so long as people understand it&rsquo;s
-mythical nature and don&rsquo;t try to ride it all the way into production.</p>
-
-<h3>Making a plan</h3>
-
-<p>Even a pony can&rsquo;t help you here.</p>
-
-<p>Once you&rsquo;ve come to understand the basics of how OpenStack is put
-together in the basic sense from the above {de,re}construction, it&rsquo;s
-time to find the union of what you want with what you can have an hope
-that it includes what you need (it probably will).</p>
-
-<p>The only way to do this is to do it. Iterate through configs either by
-hand or preferably through your config engine until you get what you
-want.</p>
-
-<p>Only <a href="http://docs.openstack.org/">Docs</a> can help you here.  Now the
-docs team works amazing hours and does great work, but keeping up
-with the pace of OpenStack is near impossible.  If you find something
-confusing, outdated, or just plain wrong there&rsquo;s a little red bug icon
-on the top right of every page, click that and report it.</p>
-
-<p>Ultimately in our perfectly documented world this iteration is still
-necessary if only to prove the behavior described is actually what
-you want.</p>
-
-<h3>Executing the plan</h3>
-
-<p>Once the hard design work is done you just feed that into your
-existing configuration management system like you&rsquo;ve been doing for
-all you server configs for years right?</p>
-
-<p>Pretty much yes. Different tool communities have different bumps in
-their particular processes, but if you pick the devil that you know
-you can pretty much anticipate what those are</p>
-
-<h2>So how is this OpenStack&rsquo;s business.</h2>
-
-<p>Well in my opinion it&rsquo;s not really.</p>
-
-<p>In a broad sense reducing over all complexity to the extent we can
-and choosing reasonable defaults so fewer of the myriad config options
-need to be set are good goals that are in scope and would help
-simplify installs, but that&rsquo;s really a side effect, simplifying on
-going management is the main need for those. You install infrequently
-(maybe once) but systems management is forever.</p>
-
-<p>Packaging is your distro&rsquo;s business which is as it should be, for
-example when have you ever tried to install <a href="http://www.x.org">X</a> from
-upstream or install
-<a href="http://www.linuxfromscratch.org/">Linux From Scratch</a>? These are
-instructive experiences but you probably wouldn&rsquo;t base you
-infrastructure on do that. Of course if you are deploying from trunk
-then you don&rsquo;t need packages, but you do need a CI/CD team and have
-more complex problems than any dreamed of here.</p>
-
-<p>Configuration management is the union of the OpenStack and tool
-communities. You&rsquo;ll see sessions for various tools at
-<a href="https://www.openstack.org/summit">Summits</a>, midcycle OPS meetups, and
-on <a href="https://github.com/stackforg">StackForge</a>, but they are not
-properly OpenStack projects.</p>
-
-<p>You&rsquo;re of course free to disagree, and build a native magical
-installer if you want.  As I said choice is good. But if you&rsquo;re going
-to hate on how hard OpenStack is to install try and remember what it
-was like to install a GNU/Linux operating system when it was four
-years old (say 1997 when the <a href="http://www.debian.org">Debian</a> disto
-was 4). OpenStack is a dream compared to that, so quit whining and get
-to <a href="https://wiki.openstack.org/wiki/How_To_Contribute">work</a>.</p>
+<p>I recently hitched my wagon to them (my waggon bein gMIT/CSAIL&rsquo;s
+production cloud) since we were building clouds in the same
+data-center we decided to combine efforts. I do production ops things
+so while I&rsquo;m working with them that part of the project isn&rsquo;t my baby.
+Though my interest in seeing it happen is a large part of why I
+decided to partner with them.</p>
 ]]></content>
   </entry>
   
